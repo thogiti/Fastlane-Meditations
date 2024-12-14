@@ -1,6 +1,6 @@
 ## **4. Bidding Strategies**
 
-In decentralized order flow auctions, participants (solvers) compete for the right to execute user orders. Unlike conventional single-shot auctions, these environments feature added complexity: the eventual profit or loss depends not only on the solver’s private valuation of the transaction but also on uncertain future states (e.g., asset prices) and on the presence of \textit{failure costs}—penalties imposed if a solver fails to execute after winning.
+In decentralized order flow auctions, participants (solvers) compete for the right to execute user orders. Unlike conventional single-shot auctions, these environments feature added complexity: the eventual profit or loss depends not only on the solver’s private valuation of the transaction but also on uncertain future states (e.g., asset prices) and on the presence of $\textit{failure costs}$—penalties imposed if a solver fails to execute after winning.
 
 These conditions mean that no solver can simply pick a strategy without anticipating the equilibrium responses of others. As a result, the mechanism naturally leads to a Bayesian Nash Equilibrium (BNE), where each solver’s bid accounts for both the distribution of others’ valuations and the probability of unfavorable future outcomes.
 
